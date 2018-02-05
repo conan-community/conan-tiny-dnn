@@ -23,3 +23,7 @@ class TinyDnnConan(ConanFile):
         self.copy("*LICENSE*", dst="licenses", src="sources")
         self.copy("*tiny_*.h", dst="include", src="sources")
         self.copy("*tiny_*.hpp", dst="include", src="sources")
+
+    def package_info(self):
+        if self.settings.os == "Linux":
+            self.cpp_info.libs.append("pthread")
