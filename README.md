@@ -5,7 +5,7 @@
 [![Download](https://api.bintray.com/packages/conan-community/conan/tiny-dnn%3Aconan/images/download.svg?version=0.1.1%3Astable)](https://bintray.com/conan-community/conan/tiny-dnn%3Aconan/0.1.1%3Astable/link)
 [![Build Status](https://travis-ci.org/conan-community/conan-tiny-dnn.svg?branch=stable%2F0.1.1)](https://travis-ci.org/conan-community/conan-tiny-dnn)
 
-[Conan.io](https://conan.io) package for [MiLi](https://bitbucket.org/fudepan/tiny-dnn/overview) project.
+[Conan.io](https://conan.io) package for [tiny-dnn](https://github.com/tiny-dnn/tiny-dnn) project.
 
 The packages generated with this *conanfile.py* can be found in [Bintray](https://bintray.com/conan-community/conan/tiny-dnn%3Aconan).
 
