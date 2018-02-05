@@ -59,7 +59,7 @@ if __name__ == "__main__":
 
     filtered_builds = []
     for settings, options, env_vars, build_requires, reference in builder.items:
-        if settings["os"] == "Linux":
+        if settings["compiler"] == "gcc":
             filtered_builds.append([settings, options, env_vars, build_requires])
             break
 
