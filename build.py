@@ -56,4 +56,12 @@ if __name__ == "__main__":
         remotes=upload_remote)
 
     builder.add_common_builds()
+
+    filtered_builds = []
+    for settings, options, env_vars, build_requires, reference in builder.items:
+        if settings["os"] == "Linux":
+            filtered_builds.append([settings, options, env_vars, build_requires])
+            break
+
+    builder.builds = filtered_builds
     builder.run()
