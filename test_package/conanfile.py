@@ -6,13 +6,6 @@ class TestPackageConan(ConanFile):
     settings = "os", "compiler", "build_type", "arch", "cppstd"
     generators = "cmake"
 
-    def configure(self):
-        if not self.settings.cppstd:
-            if self.settings.os == "Windows":
-                self.settings.cppstd = 14
-            else:
-                self.settings.cppstd = "gnu14"
-
     def build(self):
         cmake = CMake(self)
         cmake.configure()
