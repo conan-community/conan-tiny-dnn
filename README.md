@@ -1,3 +1,13 @@
+## Package Deprecation Notice
+
+[CCI](https://github.com/conan-io/conan-center-index) has taken ownership of the public Conan package for this library, which can be found at the following links:
+
+https://github.com/conan-io/conan-center-index/
+https://conan.io/center/tiny-dnn
+
+Conan Community will keep this version of the package on Github and Bintray, however it will no longer be maintained or supported.
+Users are advised to update their projects to use the official Conan package maintained by the library author immediately.
+
 [![Download](https://api.bintray.com/packages/conan-community/conan/tiny-dnn%3Aconan/images/download.svg) ](https://bintray.com/conan-community/conan/tiny-dnn%3Aconan/_latestVersion)
 [![Build Status Travis](https://travis-ci.org/conan-community/conan-tiny-dnn.svg)](https://travis-ci.org/conan-community/conan-tiny-dnn)
 

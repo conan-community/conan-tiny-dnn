@@ -14,6 +14,7 @@ class TinyDnnConan(ConanFile):
     settings = "os"
     no_copy_source = True
     exports_sources = ["LICENSE"]
+    deprecated = "tiny-dnn/cci.20201023@"
 
     def source(self):
         source_url = ("%s/archive/v%s.zip" % (self.homepage, self.version))
